@@ -5,5 +5,10 @@
   "main": "index.js",
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "_pnpm": {
+    "overrides": {
+      "jspdf>file-saver": "file:stash/FileSaver.js-eligrey-1.3.8.tgz"
+    }
+  }
 }
